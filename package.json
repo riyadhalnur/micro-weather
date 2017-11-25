@@ -1,0 +1,32 @@
+{
+  "name": "micro-weather",
+  "version": "1.0.0",
+  "description": "Retrieve weather details using the Open Weather API",
+  "main": "index.js",
+  "engines": {
+    "npm": ">=5.x",
+    "node": ">=8.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "keywords": [
+    "microservice",
+    "micro",
+    "weather",
+    "openweather",
+    "api",
+    "now"
+  ],
+  "author": "Riyadh Al Nur <riyadhalnur@verticalaxisbd.com> (https://verticalaxisbd.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.17.1",
+    "micro": "9.0.2"
+  },
+  "devDependencies": {
+    "micro-dev": "1.4.0"
+  }
+}

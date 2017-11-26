@@ -25,7 +25,7 @@ module.exports = async (req, res) => {
 
   try {
     let results = await axios.get(`${ENDPOINT}?id=${cityId}&appid=${API_KEY}&units=metric`);
-    res.end(JSON.stringify(results.data.main));
+    res.end(JSON.stringify(Object.assign(results.data.main, { condition: results.data.weather[0].main })));
   } catch(e) {
     micro.send(res, 400, e.message || e);
   }

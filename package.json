@@ -12,6 +12,9 @@
     "start": "micro",
     "dev": "micro-dev"
   },
+  "now": {
+    "alias": "micro-weather"
+  },
   "keywords": [
     "microservice",
     "micro",

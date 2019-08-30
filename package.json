@@ -26,10 +26,10 @@
   "author": "Riyadh Al Nur <riyadhalnur@verticalaxisbd.com> (https://verticalaxisbd.com/)",
   "license": "MIT",
   "dependencies": {
-    "axios": "0.18.1",
-    "micro": "9.0.2"
+    "axios": "0.19.0",
+    "micro": "9.3.4"
   },
   "devDependencies": {
-    "micro-dev": "1.4.0"
+    "micro-dev": "3.0.0"
   }
 }

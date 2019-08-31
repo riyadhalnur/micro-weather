@@ -4,5 +4,8 @@
   "env": {
     "WEATHER_API_KEY": "@weather-api-key",
     "AIR_QUALITY_API_KEY": "@air-quality-api-key"
-  }
+  },
+  "builds": [
+    { "src": "*.js", "use": "@now/node" }
+  ]
 }

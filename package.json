@@ -1,7 +1,7 @@
 {
   "name": "micro-weather",
   "version": "2.0.0",
-  "description": "Retrieve weather details using the Open Weather API",
+  "description": "Retrieve weather and air quality details using the Open Weather and World Air Quality Index API.",
   "main": "index.js",
   "engines": {
     "npm": ">=5.x",
@@ -11,9 +11,6 @@
     "test": "echo \"Error: no test specified\" && exit 0",
     "start": "micro",
     "dev": "micro-dev"
-  },
-  "now": {
-    "alias": "micro-weather"
   },
   "keywords": [
     "microservice",

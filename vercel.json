@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "alias": ["micro-weather"],
+  "builds": [
+    { "src": "*.js", "use": "@vercel/node" }
+  ]
+}
